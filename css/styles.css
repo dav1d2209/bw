@@ -1,0 +1,132 @@
+body {
+  color: #252525;
+  font-family: "Dosis";
+  margin: auto;
+  min-height: 100%;
+  text-align: center;
+  width: 70%;
+}
+
+h1 {
+  background-color: #272d48;
+  color: #FFF;
+  font-size: 3rem;
+  margin: 40px auto;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 40px auto;
+}
+
+a {
+  color: #272d48;
+}
+
+a:hover {
+  color: #2ea3f2;
+}
+
+.container {
+  border: 2px #2ea3f2 solid;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 8%;
+}
+
+.divideBody {
+  border: none;
+  border-top: 12px dotted #272d48;
+  margin: 45px auto;
+  width: 10%;
+}
+
+
+.divideFooter {
+  background-color: #272d48;
+  border: none;
+  height: 1px;
+  width: 60%;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 88vh;
+  justify-content: space-between
+}
+
+.footer p {
+  font-size: 0.8rem;
+  margin: 50px auto;
+}
+
+/* Responsive for Desktop */
+
+@media only screen and (min-width: 769px) and (max-width: 1400px){
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+}
+
+/* Responsive for Tablet */
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 50px auto;
+  }
+
+  h2 {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin: 50px auto;
+  }
+
+}
+
+/* Responsive for Smartphone */
+
+@media only screen and (max-width: 320px) {
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 40px auto;
+  }
+
+  h2 {
+    font-size: 0.85rem;
+    margin: 20px auto;
+  }
+
+  p {
+    font-size: 0.7rem;
+    margin: 25px auto;
+  }
+
+  .container {
+    margin-top: 25%;
+  }
+}
