@@ -71,7 +71,7 @@ a:hover {
 
 .footer p {
   font-size: 0.8rem;
-  margin: 50px auto;
+  line-height: 4;
 }
 
 .pn {
@@ -99,17 +99,16 @@ a:hover {
     font-size: 1.1rem;
   }
 
-
 }
 
 /* Responsive for Tablet */
 
 @media (min-width:541px) and (max-width:768px) {
 
-  /* body {
+  body {
     background: #FFF;
     color: #575757;
-  } */
+  }
 
   h1 {
     font-size: 2.5rem;
@@ -144,7 +143,7 @@ a:hover {
 
   h1 {
     font-size: 1.15rem;
-    margin: 0px auto;
+    margin: 20px auto 0px;
     padding: 7px;
   }
 
