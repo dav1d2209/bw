@@ -1,5 +1,10 @@
+html {
+height: 100%;
+}
+
 body {
   background-image: url("../images/backgroundLanding.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
   font-family: "Dosis";
@@ -113,8 +118,8 @@ a:hover {
 
   h2 {
     font-size: 1rem;
-    padding: 15px;
-  }
+    margin: 15px auto;
+    }
 
   p {
     font-size: 0.8rem;
@@ -134,29 +139,41 @@ a:hover {
   body {
     background: #FFF;
     color: #575757;
+    width: 90%;
   }
 
   h1 {
-    font-size: 2.5rem;
-    margin: 40px auto;
+    font-size: 1.15rem;
+    margin: 0px auto;
+    padding: 7px;
   }
 
   h2 {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin: 20px auto;
+    padding: 0;
   }
 
   p {
-    font-size: 0.7rem;
-    margin: 25px auto;
+    font-size: 0.65rem;
+    margin: 20px auto;
   }
 
   .container {
-    margin-top: 25%;
+    margin-top: 8%;
+  }
+
+  .divideBody {
+    border-top: 6px dotted #272d48;
+    margin: 20px auto;
   }
 
   .pn {
     font-size: 0.8rem;
   }
 
+.footer p {
+  font-size: 0.5rem;
+  margin: 10px auto;
+}
 }
