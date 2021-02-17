@@ -1,5 +1,7 @@
 body {
-  color: #252525;
+  background-image: url("C:/Users/HP/Documents/Code/DavidsEntwicklung/LandingMailing/images/backgroundLanding.jpg");
+  background-size: cover;
+  color: #FFF;
   font-family: "Dosis";
   margin: auto;
   min-height: 100%;
@@ -26,11 +28,11 @@ p {
 }
 
 a {
-  color: #272d48;
+  color: #2ea3f2;
 }
 
 a:hover {
-  color: #2ea3f2;
+  color: #70bff5;
 }
 
 .container {
@@ -58,7 +60,7 @@ a:hover {
 .flex-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 88vh;
+  min-height: 87vh;
   justify-content: space-between
 }
 
@@ -67,9 +69,13 @@ a:hover {
   margin: 50px auto;
 }
 
+.pn {
+  font-size: 1.3rem;
+}
+
 /* Responsive for Desktop */
 
-@media only screen and (min-width: 769px) and (max-width: 1400px){
+@media (min-width: 769px) and (max-width: 1400px){
 
   h1 {
     font-size: 2.7rem;
@@ -84,11 +90,21 @@ a:hover {
     font-size: 1rem;
   }
 
+  .pn {
+    font-size: 1.1rem;
+  }
+
+
 }
 
 /* Responsive for Tablet */
 
-@media only screen and (min-width:321px) and (max-width:768px) {
+@media (min-width:541px) and (max-width:768px) {
+
+  /* body {
+    background: #FFF;
+    color: #575757;
+  } */
 
   h1 {
     font-size: 2.5rem;
@@ -105,11 +121,20 @@ a:hover {
     margin: 50px auto;
   }
 
+  .pn {
+    font-size: 0.9rem;
+  }
+
 }
 
 /* Responsive for Smartphone */
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 540px) {
+
+  body {
+    background: #FFF;
+    color: #575757;
+  }
 
   h1 {
     font-size: 2.5rem;
@@ -129,4 +154,9 @@ a:hover {
   .container {
     margin-top: 25%;
   }
+
+  .pn {
+    font-size: 0.8rem;
+  }
+
 }
